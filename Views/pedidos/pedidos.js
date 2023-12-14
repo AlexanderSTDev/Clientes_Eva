@@ -1,5 +1,3 @@
-//aqui va a estar el codigo de usuarios.model.js
-
 function init() {
     $("#frm_pedidos").on("submit", function (e) {
         guardaryeditar(e);
@@ -87,12 +85,13 @@ var editar = async (ID_pedido) => {
         { ID_pedido: ID_pedido },
         (res) => {
             res = JSON.parse(res);
+            console.log(res);
 
             $("#ID_pedido").val(res.ID_pedido);
             $("#ID_cliente").val(res.ID_cliente);
             $("#Producto").val(res.Producto);
             $("#Cantidad").val(res.Cantidad);
-            $("#Fecha_pedido").val(res.Fecha_Pedido);
+            $("#Fecha_pedido").val(res.Fecha_pedido);
         }
     );
     $("#Modal_pedido").modal("show");
