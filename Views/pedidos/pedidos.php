@@ -84,7 +84,7 @@
 
                     <div class="form-group">
                         <label for="Fecha_pedido">Fecha</label>
-                        <input type="text" required class="form-control" id="Fecha_pedido" name="Fecha_pedido" placeholder="Ingrese la fecha Ejemplo: 2022-01-01">
+                        <input type="text" required class="form-control" id="Fecha_pedido" name="Fecha_pedido" placeholder="Ingrese la fecha Ejemplo: 2023-12-01">
                     </div>
 
                 </div>
