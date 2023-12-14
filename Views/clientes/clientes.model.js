@@ -29,8 +29,6 @@ class Clientes_Model {
                     })'>Editar</button>
               <button class='btn btn-danger' onclick='eliminar(${valor.ID_cliente
                     })'>Eliminar</button>
-              <button class='btn btn-info' onclick='ver(${valor.ID_cliente
-                    })'>Ver</button>
               </td></tr>
                   `;
             });
